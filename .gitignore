@@ -1,0 +1,5 @@
+# Ignore blender backup files
+*.blend1
+
+# To avoid windows shenanigans
+desktop.ini

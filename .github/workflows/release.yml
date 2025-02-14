@@ -25,8 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - name: Build Artifact
+      - name: Create artifact from addon folder
+        run: |
+          zip -r addon.zip addon
+
+      - name: Upload artifact
         uses: actions/upload-artifact@v4.6.0
         with:
           name: cookiepack
-          path: $GITHUB_WORKSPACE/addon
+          path: addon.zip

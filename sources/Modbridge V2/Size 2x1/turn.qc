@@ -1,0 +1,29 @@
+$modelname "modbridge_v2/corridors/size2/turn.mdl"
+$scale 75
+
+// Model
+$body "main" "turn.ref.smd"
+
+// Textures
+$surfaceprop metal
+$cdmaterials "the17thdoctor/corridors"
+
+// Animations
+$staticprop
+$sequence idle "turn.ref.smd"
+
+$KeyValues
+{
+    prop_data 
+    {
+        "base" "Metal.Large"
+        "allowstatic" "1"
+    }
+}
+
+// Physics
+$collisionmodel "turn.col.smd" { 
+    $concave
+    $mass 800
+    $maxconvexpieces 400
+}

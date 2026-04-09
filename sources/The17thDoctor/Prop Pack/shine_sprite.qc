@@ -1,4 +1,4 @@
-$modelname "the17thdoctor/shine_sprite.mdl"
+$modelname "the17thdoctor/props/shine_sprite.mdl"
 $scale 15
 
 // Model

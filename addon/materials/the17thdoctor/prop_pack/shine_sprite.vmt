@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+    $basetexture "the17thdoctor/prop_pack/shine_sprite"
+    $bumpmap "the17thdoctor/prop_pack/shine_sprite_normal"
+    $surfaceprop "Metal"
+
+    $phong 1
+    $phongexponent 1.5
+    $phongboost 1
+    $phongtint "[1 1 1]"
+    $phongfresnelranges "[1 1 1]"
+
+    $envmap env_cubemap
+    $envmaptint "[1 1 1]"
+    $envmaplightscale 1
+}

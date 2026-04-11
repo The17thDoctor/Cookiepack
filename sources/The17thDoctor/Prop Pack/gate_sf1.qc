@@ -4,7 +4,7 @@ $staticprop
 
 $bodygroup "mybody"
 {
-	studio "starfall_1.smd"
+	studio "gate_sf1.ref.smd"
 }
 
 
@@ -25,7 +25,7 @@ $definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {
-	"starfall_1.smd"
+	"gate_sf2.ref.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 15

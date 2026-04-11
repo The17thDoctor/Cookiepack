@@ -6,7 +6,7 @@ $body "main" "shine_sprite.ref.smd"
 
 // Textures
 $surfaceprop metal
-$cdmaterials "the17thdoctor/prop_pack"
+$cdmaterials "the17thdoctor/props"
 
 $texturegroup "color"
 {

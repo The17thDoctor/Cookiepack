@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "veegi/metal_medium"
+	"$surfaceprop" "Metal"
+	"$nolod" 1
+	"$model" 1
+	"$phong"     "1"
+	"$halflambert"	1
+ 	"$phongboost"   "0.8"
+ 	"$phongfresnelranges"   "[0.08 0.17 0.95]"
+}

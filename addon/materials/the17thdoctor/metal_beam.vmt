@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+    $basetexture "the17thdoctor/metal_beam"
+    $bumpmap "the17thdoctor/metal_beam_normal"
+
+    $phong 1
+	$phongexponent 5
+	$phongboost 1
+	$phongfresnelranges "[0.25 0.5 1]"
+}

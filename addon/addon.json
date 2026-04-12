@@ -1,5 +1,8 @@
 {
-    "title" : "Cookiepack",
-    "type" : "ServerContent",
-    "tags"  : ["build"]
+	"title": "Cookiepack",
+	"type": "ServerContent",
+	"tags": 
+	[
+		"build"
+	]
 }

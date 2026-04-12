@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "the17thdoctor/metal_panel_base"
+	"$bumpmap" "the17thdoctor/metal_panel_normal"
+	"$color2" "[0.8 0.8 0.8]"
+	"$surfaceprop" "Metal"
+	"$phong" 1
+	"$phongexponent"	2
+	"$phongboost" 1
+	"$phongfresnelranges" "[0 0.5 1]"
+}

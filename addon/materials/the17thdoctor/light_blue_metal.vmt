@@ -1,9 +1,8 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "the17thdoctor/blue_metal_base"
+	"$basetexture" "the17thdoctor/light_blue_metal_base"
 	"$bumpmap" "the17thdoctor/blue_metal_normal"
 	"$surfaceprop" "Metal"
-	"$color2" "[1 1 0.9]"
 	"$phong" 1
 	"$phongexponent" 15
 	"$phongboost" 0.5

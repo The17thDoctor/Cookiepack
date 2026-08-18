@@ -2,7 +2,6 @@
 {
 	"$basetexture" "the17thdoctor/blue_metal_base"
 	"$bumpmap" "the17thdoctor/blue_metal_normal"
-	"$color2" "[0.4 0.4 0.37]"
 	"$surfaceprop" "Metal"
 	"$phong" 1
 	"$phongexponent" 5

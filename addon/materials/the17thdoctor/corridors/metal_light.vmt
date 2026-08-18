@@ -1,7 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "the17thdoctor/corridors/metal_medium_base"
-	"$color2" "[0.85 0.85 0.85]"
+	"$basetexture" "the17thdoctor/corridors/metal_light_base"
 	"$bumpmap" "the17thdoctor/corridors/metal_medium_normal"
 	"$phong" 1
 	"$phongexponent" 15

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "cookiepack/destiny/chair_pipe_albedo"
+	$bumpmap "cookiepack/destiny/chair_pipe_normal"
+}

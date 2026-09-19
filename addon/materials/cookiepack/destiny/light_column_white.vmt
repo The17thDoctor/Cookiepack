@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "cookiepack/destiny/light_column_white"
+	$selfillum 1
+}

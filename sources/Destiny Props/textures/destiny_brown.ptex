@@ -1,0 +1,263 @@
+{
+	"connections": [
+		{
+			"from": "normal_map2",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 4
+		},
+		{
+			"from": "normal_map2",
+			"from_port": 0,
+			"to": "normal_map_convert_2",
+			"to_port": 0
+		},
+		{
+			"from": "normal_map_convert_2",
+			"from_port": 0,
+			"to": "export_2",
+			"to_port": 0
+		},
+		{
+			"from": "uniform_2",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 0
+		},
+		{
+			"from": "uniform",
+			"from_port": 0,
+			"to": "blend2_2",
+			"to_port": 0
+		},
+		{
+			"from": "fbm3",
+			"from_port": 0,
+			"to": "blend2_2",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_2",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 1
+		},
+		{
+			"from": "perlin",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 3
+		},
+		{
+			"from": "blend2",
+			"from_port": 0,
+			"to": "export",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_2",
+			"from_port": 0,
+			"to": "normal_map2",
+			"to_port": 0
+		}
+	],
+	"label": "Graph",
+	"longdesc": "",
+	"name": "@Node@867",
+	"node_position": {
+		"x": 0.0,
+		"y": 0.0
+	},
+	"nodes": [
+		{
+			"export_paths": {
+
+			},
+			"name": "Material",
+			"node_position": {
+				"x": 829.575134277344,
+				"y": -91.3729934692383
+			},
+			"parameters": {
+				"albedo_color": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"ao": 1.0,
+				"depth_scale": 0.5,
+				"emission_energy": 1.0,
+				"flags_transparent": true,
+				"metallic": 0.0,
+				"normal": 1.0,
+				"roughness": 1.0,
+				"size": 10,
+				"sss": 1.0
+			},
+			"seed_int": 0,
+			"type": "material"
+		},
+		{
+			"name": "fbm3",
+			"node_position": {
+				"x": -443.223419189453,
+				"y": -140.653762817383
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 10.0,
+				"noise": 3,
+				"offset": 0.27,
+				"persistence": 0.56,
+				"scale_x": 10.0,
+				"scale_y": 10.0
+			},
+			"seed_int": 1086089984,
+			"type": "fbm3"
+		},
+		{
+			"name": "uniform",
+			"node_position": {
+				"x": -435.479858398438,
+				"y": -265.115295410156
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.115814216434956,
+					"g": 0.175962835550308,
+					"r": 0.166940540075302,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_2",
+			"node_position": {
+				"x": -438.479858398438,
+				"y": -358.115264892578
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.0900000035762787,
+					"g": 0.137999996542931,
+					"r": 0.180000007152557,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "export",
+			"node_position": {
+				"x": 775.480163574219,
+				"y": -307.505279541016
+			},
+			"parameters": {
+				"format": 0,
+				"size": 10.0,
+				"suffix": "albedo"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "normal_map2",
+			"node_position": {
+				"x": 346.764312744141,
+				"y": -148.350387573242
+			},
+			"parameters": {
+				"buffer": 0,
+				"param2": 0,
+				"size": 10.0,
+				"strength": 0.75
+			},
+			"seed_int": 0,
+			"type": "normal_map2"
+		},
+		{
+			"name": "normal_map_convert_2",
+			"node_position": {
+				"x": 551.42626953125,
+				"y": 61.1506538391113
+			},
+			"parameters": {
+				"op": 0.0
+			},
+			"seed_int": 0,
+			"type": "normal_map_convert"
+		},
+		{
+			"name": "export_2",
+			"node_position": {
+				"x": 814.876281738281,
+				"y": 238.504730224609
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 10.0,
+				"suffix": "normal"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "perlin",
+			"node_position": {
+				"x": -89.2607040405273,
+				"y": -521.168884277344
+			},
+			"parameters": {
+				"iterations": 10.0,
+				"persistence": 1.0,
+				"scale_x": 32.0,
+				"scale_y": 32.0
+			},
+			"seed_int": 0,
+			"type": "perlin"
+		},
+		{
+			"generic_size": 2,
+			"name": "blend2",
+			"node_position": {
+				"x": 100.677871704102,
+				"y": -356.5
+			},
+			"parameters": {
+				"amount1": 0.42,
+				"amount2": 0.28,
+				"blend_type1": 0,
+				"blend_type2": 2
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_2",
+			"node_position": {
+				"x": -205.951202392578,
+				"y": -205.363922119141
+			},
+			"parameters": {
+				"amount1": 0.07,
+				"blend_type1": 14
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		}
+	],
+	"parameters": {
+
+	},
+	"seed_int": 0,
+	"shortdesc": "",
+	"type": "graph"
+}

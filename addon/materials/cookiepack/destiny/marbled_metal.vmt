@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	$basetexture "cookiepack/destiny/marbled_metal_albedo"
+	$bumpmap "cookiepack/destiny/marbled_metal_normal"
+	
+	$envmap "env_cubemap"
+	$envmapfresnel 1
+	$envmaptint 0.2
+
+	$rimlight 1
+	$rimlightexponent 2
+	$rimlightboost 0.2
+}

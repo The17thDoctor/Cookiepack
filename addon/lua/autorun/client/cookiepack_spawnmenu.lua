@@ -1,3 +1,10 @@
+--[[
+
+    Cookiepack | Spawnmenu
+    Sets up a custom spawnmenu category for Cookiepack props.
+
+--]]
+
 local categories = {
     ["Modbridge V2"] = {
         "models/modbridge_v2/corridors/bridges/round_s.mdl",

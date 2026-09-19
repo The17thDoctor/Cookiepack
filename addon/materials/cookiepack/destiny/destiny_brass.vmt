@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "cookiepack/destiny/destiny_brass_albedo"
+	
+	$envmap "env_cubemap"
+	$envmaptint "[0.7 0.6 0]"
+	$envmapmask "cookiepack/destiny/destiny_brass_roughness"
+}

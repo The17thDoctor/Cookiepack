@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	$basetexture "cookiepack/destiny/destiny_brown_albedo"
+	$bumpmap "cookiepack/destiny/destiny_brown_normal"
+
+	$rimlight 1
+	$rimlightexponent 2
+	$rimlightboost 0.2
+}

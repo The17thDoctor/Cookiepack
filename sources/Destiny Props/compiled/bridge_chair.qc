@@ -30,7 +30,7 @@ $collisionmodel "bridge_chair_physics.smd"
 
 // Vehicle
 $scale 1
-$attachment "vehicle_driver_eyes" "static_prop" 0 0 27 rotate 0 0 0
+$attachment "vehicle_driver_eyes" "static_prop" 0 0 27 rotate 0 -90 0
 $attachment "vehicle_driver_exit" "static_prop" 0 45 -21.375 rotate 0 0 0
 
 $keyvalues

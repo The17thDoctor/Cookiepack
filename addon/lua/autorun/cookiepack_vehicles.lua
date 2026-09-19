@@ -21,6 +21,7 @@ local vehicleDefinitions = {
 		Model = "models/destiny/bridge_chair.mdl",
 		Category = categoryName,
 		Author = "Cookiepack",
+		Offset = 18.5,
 		KeyValues = {
 			vehiclescript = "scripts/vehicles/prisoner_pod.txt",
 			limitview = "0"

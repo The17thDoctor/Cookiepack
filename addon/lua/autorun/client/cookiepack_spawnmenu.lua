@@ -198,6 +198,16 @@ local categories = {
         "models/4dpack/external decor/wedge331.mdl"
     },
 
+    ["Destiny Props"] = {
+        "models/destiny/bridge_chair.mdl",
+        "models/destiny/gateroom_arch.mdl",
+        "models/destiny/gateroom_stair_left.mdl",
+        "models/destiny/gateroom_stair_right.mdl",
+        "models/destiny/light_column.mdl",
+        "models/destiny/ramp_double.mdl",
+        "models/destiny/ramp_single.mdl"
+    },
+
     ["Turrets"] = {
         "models/4dpack/turrets/dual_turret_base.mdl",
         "models/4dpack/turrets/dual_turret_body.mdl",
@@ -241,8 +251,9 @@ local categories = {
     [1] = "Modbridge V2",
     [2] = "4D Corridors",
     [3] = "Modbridge Extras",
-    [4] = "Turrets",
-    [5] = "Misc."
+    [4] = "Destiny Props",
+    [5] = "Turrets",
+    [6] = "Misc."
 }
 
 hook.Add("PopulatePropMenu", "Cookiepack - Add Spawnlist", function()
